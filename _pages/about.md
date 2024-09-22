@@ -80,7 +80,7 @@ Linyan Huang, Huijie Wang, **Jia Zeng**, et al.
 
 Hongyang Li$^\ast$, Chonghao Sima$^\ast$, Jifeng Dai$^\ast$, Wenhai Wang$^\ast$, Lewei Lu$^\ast$, Huijie Wang$^\ast$, **Jia Zeng$^\ast$**, Zhiqi Li$^\ast$, et al.
 
-- *The World's First Perception and Reasoning Benchmark for Scene Structure in Autonomous Driving.*
+- *we conduct a thorough review on Bird’s-Eye-View (BEV) perception in recent years and provide a practical recipe according to our analysis in BEV design pipeline.*
 - [IEEE T-PAMI](https://ieeexplore.ieee.org/abstract/document/10321736) \| [Github](https://github.com/OpenDriveLab/Birds-eye-view-Perception)
 </div>
 </div>

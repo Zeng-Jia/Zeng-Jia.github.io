@@ -34,7 +34,7 @@ I am currently a researcher at [Shanghai AI Labotory](https://www.shlab.org.cn/)
  Qingwen Bu$^\ast$, **Jia Zeng$^\ast$**, Chen Li$^\ast$, Yanchao Yang, Guyue Zhou, Junchi Yan, Ping Luo, Heming Cui, D.Hu, Yi Ma, Hongyang Li
 
 - *We propose ​**CLOVER**, which employs a text-conditioned video diffusion model for generating visual plans as reference inputs, then  leverages these sub-goals to guide the feedback-driven policy to generate actions with an error measurement strategy.* 
-- [arXiv](https://arxiv.org/abs/2409.09016) \| [Code](https://github.com/OpenDriveLab/CLOVER) 
+- [NeurIPS 2024](https://arxiv.org/abs/2409.09016) \| [Code](https://github.com/OpenDriveLab/CLOVER) 
 </div>
 </div>
 

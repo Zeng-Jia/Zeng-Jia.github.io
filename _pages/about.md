@@ -27,7 +27,7 @@ I am currently a researcher at [Shanghai AI Labotory](https://www.shlab.org.cn/)
 
 ## 🤖 Embodied AI <span style="font-size: small; float: right; color: gray;"> * indicates equal contribution </span> 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">preprint</div><img src='images/publications/clover.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">NeurIPS 2024</div><img src='images/publications/clover.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1" style="font-family:  Noto Serif, Georgia, serif; font-size: 14px;">
 [**Closed-Loop Visuomotor Control with Generative Expectation for Robotic Manipulation**](https://arxiv.org/abs/2409.09016)
 

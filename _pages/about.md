@@ -19,24 +19,13 @@ redirect_from:
 
 I am currently a researcher at [Shanghai AI Labotory](https://www.shlab.org.cn/). My research interests include **Embodied AI, Computer Vision, Robotic Manipulation and Autonomous Driving**. 
 
- I received my PhD degree from Robotics Institute, Shanghai Jiao Tong University, supervised by Prof. [Honghai Liu](https://scholar.google.com/citations?user=bsabUhgAAAAJ&hl=zh-CN), and obtained my bachelor's degree from Central South University. Over the preceding period, I have worked with Prof. [Hongyang Li](https://lihongyang.info) and Prof. [Yu Qiao](https://scholar.google.com/citations?user=gFtI-8QAAAAJ&hl=zh-CN) at Shanghai AI Labotory.
+ I received my PhD degree from Robotics Institute, Shanghai Jiao Tong University, supervised by Prof. [Honghai Liu](https://scholar.google.com/citations?user=bsabUhgAAAAJ&hl=zh-CN), and obtained my bachelor's degree from Central South University. I am currently working with [Jiangmiao Pang](https://oceanpang.github.io/) on Embodied AI. Over the preceding period, I have worked with Prof. [Hongyang Li](https://lihongyang.info) and Prof. [Yu Qiao](https://scholar.google.com/citations?user=gFtI-8QAAAAJ&hl=zh-CN) at Shanghai AI Labotory.
 
- I am an interdisciplinary lifelong learner, with an academic journey that has evolved from bio-mechatronics, computer vision, and autonomous driving to embodied AI. I am currently dedicated to advancing embodied AGI, with an emphasis on generalizable robotic manipulation.
+ I am an interdisciplinary lifelong learner, with an academic journey that has evolved from bio-mechatronics, computer vision, and autonomous driving to embodied AI. I am currently dedicated to advancing Embodied AGI, with an emphasis on generalizable robotic manipulation.
 
 # 📝 Selected Publications
 
 ## 🤖 Embodied AI <span style="font-size: small; float: right; color: gray;"> * indicates equal contribution </span> 
-
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">NeurIPS 2024</div><img src='images/publications/clover.png' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1" style="font-family:  Noto Serif, Georgia, serif; font-size: 14px;">
-[**Closed-Loop Visuomotor Control with Generative Expectation for Robotic Manipulation**](https://arxiv.org/abs/2409.09016)
-
- Qingwen Bu$^\ast$, **Jia Zeng$^\ast$**, Chen Li$^\ast$, Yanchao Yang, Guyue Zhou, Junchi Yan, Ping Luo, Heming Cui, D.Hu, Yi Ma, Hongyang Li
-
-- *We propose ​**CLOVER**, which employs a text-conditioned video diffusion model for generating visual plans as reference inputs, then  leverages these sub-goals to guide the feedback-driven policy to generate actions with an error measurement strategy.* 
-- [NeurIPS 2024](https://arxiv.org/abs/2409.09016) \| [Code](https://github.com/OpenDriveLab/CLOVER) 
-</div>
-</div>
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">RSS 2024</div><img src='images/publications/rss2024-mpi.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1" style="font-family:  Noto Serif, Georgia, serif; font-size: 14px;">
@@ -49,6 +38,19 @@ I am currently a researcher at [Shanghai AI Labotory](https://www.shlab.org.cn/)
 
 </div>
 </div>
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">NeurIPS 2024</div><img src='images/publications/clover.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1" style="font-family:  Noto Serif, Georgia, serif; font-size: 14px;">
+[**Closed-Loop Visuomotor Control with Generative Expectation for Robotic Manipulation**](https://arxiv.org/abs/2409.09016)
+
+ Qingwen Bu$^\ast$, **Jia Zeng$^\ast$**, Chen Li$^\ast$, Yanchao Yang, Guyue Zhou, Junchi Yan, Ping Luo, Heming Cui, D.Hu, Yi Ma, Hongyang Li
+
+- *We propose ​**CLOVER**, which employs a text-conditioned video diffusion model for generating visual plans as reference inputs, then  leverages these sub-goals to guide the feedback-driven policy to generate actions with an error measurement strategy.* 
+- [NeurIPS 2024](https://arxiv.org/abs/2409.09016) \| [Code](https://github.com/OpenDriveLab/CLOVER) 
+</div>
+</div>
+
+
 ## 🚗 Autonomous Driving
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR 2023</div><img src='images/publications/cvpr2023-focaldistiller.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1" style="font-family:  Noto Serif, Georgia, serif; font-size: 14px;">
@@ -147,7 +149,7 @@ Hongyang Li$^\ast$, Yang Li$^\ast$, Huijie Wang$^\ast$, **Jia Zeng$^\ast$**, Hui
 
 
 # 💼 Service
-- Reviewer for `CVPR 2024`, `ECCV 2024`, `NeurIPS 2024`, etc.
+- Reviewer for `CVPR 2024`, `ECCV 2024`, `NeurIPS 2024`, `ICLR 2025`, etc.
 - Member of CAAI-Embodied AI Committee.
 
   

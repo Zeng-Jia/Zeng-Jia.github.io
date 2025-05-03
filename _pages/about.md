@@ -50,6 +50,58 @@ I am currently a researcher at [Shanghai AI Labotory](https://www.shlab.org.cn/)
 </div>
 </div>
 
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICLR 2025</div><img src='images/publications/iclr2025-seer.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1" style="font-family:  Noto Serif, Georgia, serif; font-size: 14px;">
+[**Predictive Inverse Dynamics Models are Scalable Learners for Robotic Manipulation**](https://arxiv.org/abs/2412.15109)
+
+ Yang Tian$^\ast$, Sizhe Yang$^\ast$, **Jia Zeng**, Ping Wang, Dahua Lin, Hao Dong, Jiangmiao Pang
+
+- *We propose an end-to-end model, **Seer**, which employs an inverse dynamics model based on the robot’s predicted visual states to forecast actions. We term such architectural framework the **Predictive Inverse Dynamics Model (PIDM)**.*
+
+- [ICLR 2025](https://arxiv.org/abs/2412.15109) \| [Project Page](https://nimolty.github.io/Seer/) \| [Code](https://github.com/OpenRobotLab/Seer) 
+</div>
+</div>
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">RSS 2025</div><img src='images/publications/RSS2025-RoboSplat.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1" style="font-family:  Noto Serif, Georgia, serif; font-size: 14px;">
+[**Novel Demonstration Generation with Gaussian Splatting Enables Robust One-Shot Manipulation**](https://arxiv.org/abs/2504.13175)
+
+ Sizhe Yang$^\ast$, Wenye Yu$^\ast$, **Jia Zeng**, Jun Lv, Kerui Ren, Cewu Lu, Dahua Lin, Jiangmiao Pang
+
+- ***RoboSplat** is framework that leverages 3D Gaussian Splatting (3DGS) to generate novel demonstrations for RGB-based policy learning. RoboSplat can generate diverse and visually realistic data across six types of generalization (object poses, object types, camera views, scene appearance, lighting conditions, and embodiments).*
+
+- [RSS 2025](https://arxiv.org/abs/2504.13175) \| [Project Page](https://yangsizhe.github.io/robosplat/) \| [Code](https://github.com/OpenRobotLab/robosplat) 
+</div>
+</div>
+
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">RSS 2025</div><img src='images/publications/RSS2025-Homie.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1" style="font-family:  Noto Serif, Georgia, serif; font-size: 14px;">
+[**HOMIE: Humanoid Loco-Manipulation with Isomorphic Exoskeleton Cockpit**](https://arxiv.org/abs/2502.13013)
+
+ Qingwei Ben$^\ast$, Feiyu Jia$^\ast$, **Jia Zeng**, Junting Dong, Dahua Lin, Jiangmiao Pang
+
+- *we propose **HOMIE**, a novel humanoid teleoperation cockpit integrates a humanoid loco-manipulation policy and a low-cost exoskeleton-based hardware system.*
+
+- [RSS 2025](https://arxiv.org/abs/2502.13013) \| [Project Page](https://homietele.github.io/) \| [Code](https://github.com/OpenRobotLab/OpenHomie) 
+</div>
+</div>
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">RSS 2025</div><img src='images/publications/RSS2025-PPI.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1" style="font-family:  Noto Serif, Georgia, serif; font-size: 14px;">
+[**Gripper Keypose and Object Pointflow as Interfaces for Bimanual Robotic Manipulation**](https://arxiv.org/abs/2504.17784)
+
+Yuyin Yang$^\ast$, Zetao Cai$^\ast$, Yang Tian, **Jia Zeng**, Jiangmiao Pang
+
+- ***PPI** integrates the prediction of target gripper poses and object pointflow with the continuous actions estimation, providing enhanced spatial localization and satisfying flexibility in handling movement restrictions.*
+
+- [RSS 2025](https://arxiv.org/abs/2504.17784) \| [Project Page](https://yuyinyang3y.github.io/PPI/) \| [Code](https://github.com/OpenRobotLab/PPI) 
+</div>
+</div>
+
+
+
+
 
 ## 🚗 Autonomous Driving
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR 2023</div><img src='images/publications/cvpr2023-focaldistiller.png' alt="sym" width="100%"></div></div>
@@ -149,7 +201,7 @@ Hongyang Li$^\ast$, Yang Li$^\ast$, Huijie Wang$^\ast$, **Jia Zeng$^\ast$**, Hui
 
 
 # 💼 Service
-- Reviewer for `CVPR 2024`, `ECCV 2024`, `NeurIPS 2024`, `ICLR 2025`, etc.
+- Reviewer for `CVPR`, `ECCV`, `NeurIPS`, `ICLR`, `ICML`, etc.
 - Member of CAAI-Embodied AI Committee.
 
   

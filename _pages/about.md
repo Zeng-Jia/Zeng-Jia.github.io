@@ -17,7 +17,7 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-I am currently a researcher at [Shanghai AI Labotory](https://www.shlab.org.cn/). My research interests include **Embodied AI, Computer Vision, Robotic Manipulation and Autonomous Driving**. 
+I am currently a researcher at [Shanghai AI Labotory](https://www.shlab.org.cn/). My research interests include **Embodied AI, Robotic Manipulation and Vision-Language-Action (VLA) model**.  
 
  I received my PhD degree from Robotics Institute, Shanghai Jiao Tong University, supervised by Prof. [Honghai Liu](https://scholar.google.com/citations?user=bsabUhgAAAAJ&hl=zh-CN), and obtained my bachelor's degree from Central South University. I am currently working with [Jiangmiao Pang](https://oceanpang.github.io/) on Embodied AI. Over the preceding period, I have worked with Prof. [Hongyang Li](https://lihongyang.info) and Prof. [Yu Qiao](https://scholar.google.com/citations?user=gFtI-8QAAAAJ&hl=zh-CN) at Shanghai AI Labotory.
 

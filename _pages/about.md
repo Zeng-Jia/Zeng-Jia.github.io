@@ -21,11 +21,42 @@ I am currently a researcher at [Shanghai AI Labotory](https://www.shlab.org.cn/)
 
  I received my PhD degree from Robotics Institute, Shanghai Jiao Tong University, supervised by Prof. [Honghai Liu](https://scholar.google.com/citations?user=bsabUhgAAAAJ&hl=zh-CN), and obtained my bachelor's degree from Central South University. I am currently working with [Jiangmiao Pang](https://oceanpang.github.io/) on Embodied AI. Over the preceding period, I have worked with Prof. [Hongyang Li](https://lihongyang.info) and Prof. [Yu Qiao](https://scholar.google.com/citations?user=gFtI-8QAAAAJ&hl=zh-CN) at Shanghai AI Labotory.
 
- I am an interdisciplinary lifelong learner, with an academic journey that has evolved from bio-mechatronics, computer vision, and autonomous driving to embodied AI. I am currently dedicated to advancing Embodied AGI, with an emphasis on generalizable robotic manipulation.
 
 # 📝 Selected Publications
 
-## 🤖 Embodied AI <span style="font-size: small; float: right; color: gray;"> * indicates equal contribution </span> 
+## 🤖 Embodied AI <span style="font-size: small; float: right; color: gray;"> * indicates equal contribution, ✉️ indicates corresponding author </span> 
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Preprint</div><img src='images/publications/InternData-A1.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1" style="font-family:  Noto Serif, Georgia, serif; font-size: 14px;">
+[**InternData-A1: Pioneering High-Fidelity Synthetic Data
+for Pre-training Generalist Policy**](https://arxiv.org/abs/2511.16651)
+
+Yang Tian$^\ast$, Yuyin Yang$^\ast$, Yiman Xie$^\ast$, Zetao Cai$^\ast$, Xu Shi$^\ast$, Ning Gao, Hangxu Liu, Xuekun Jiang, Zherui Qiu, Feng Yuan, Yaping Li, Ping Wang, Junhao Cai, 
+
+**Jia Zeng**✉️, Hao Dong✉️, Jiangmiao Pang✉️
+
+- *We propose a high-fidelity synthetic data **InternData-A1**, which contains over **630k trajectories** and **7,433 hours**
+.*
+
+- *This work provides the first evidence that synthetic data alone can match the performance of the strongest 𝜋-dataset in pre-training a VLA model, revealing the substantial
+value of large-scale simulation.*
+- [arXiv](https://arxiv.org/abs/2511.16651) \| [Dataset](https://huggingface.co/datasets/InternRobotics/InternData-A1)  \|  [Project Page](https://internrobotics.github.io/interndata-a1.github.io/)
+
+</div>
+</div>
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Preprint</div><img src='images/publications/F1-VLA.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1" style="font-family:  Noto Serif, Georgia, serif; font-size: 14px;">
+[**F1: A vision-language-action model bridging understanding and generation to actions**](https://arxiv.org/abs/2509.06951)
+
+Qi Lv$^\ast$, Weijie Kong$^\ast$, Hao Li$^\ast$, **Jia Zeng**✉️, Zherui Qiu, et al.
+
+- *We introduce F1, a novel paradigm by integrating visual foresight generation into the decision-making pipeline. Our model employs a Mixture-of-Transformer architecture with dedicated modules for perception, foresight generation, and control, thereby bridging **understanding**, **generation**, and **actions** through predictive inverse dynamics modeling.*
+
+- [arXiv](https://arxiv.org/abs/2509.06951) \| [Code](https://github.com/InternRobotics/F1-VLA)  \|  [Model](https://huggingface.co/InternRobotics/F1-VLA)
+
+</div>
+</div>
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">RSS 2024</div><img src='images/publications/rss2024-mpi.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1" style="font-family:  Noto Serif, Georgia, serif; font-size: 14px;">
@@ -117,7 +148,7 @@ an imperfect 3D object detector teacher.
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Preprint</div><img src='images/publications/gapretrain.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">IJCV</div><img src='images/publications/gapretrain.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1" style="font-family:  Noto Serif, Georgia, serif; font-size: 14px;">
 [**Geometric-aware Pretraining for Vision-centric 3D Object Detection**](https://arxiv.org/abs/2304.03105)
 
@@ -149,12 +180,6 @@ Hongyang Li$^\ast$, Yang Li$^\ast$, Huijie Wang$^\ast$, **Jia Zeng$^\ast$**, Hui
 - [SCIENTIA SINICA Informationis](https://www.sciengine.com/SSI/doi/10.1360/SSI-2023-0313) \| [arXiv](https://arxiv.org/abs/2312.03408)
 </div>
 </div>
-
-## 💪🏻 Bio-Mechatronics & Human-Machine Interaction
-- **Jia Zeng**, Yu Zhou, et al. [Fatigue-sensitivity comparison of sEMG and A-Mode ultrasound based hand gesture recognition](https://ieeexplore.ieee.org/abstract/document/9585400), IEEE Journal of Biomedical and Health Informatics (JBHI), 2021.
-- **Jia Zeng**, Yu Zhou, et al. [Cross modality knowledge distillation between A-mode ultrasound and surface electromyography](https://ieeexplore.ieee.org/abstract/document/9845471), IEEE Transactions on Instrumentation and Measurement (TIM), 2022.
-- **Jia Zeng**, Yixuan Sheng, et al. [Adaptive learning against muscle fatigue for A-mode ultrasound based gesture recognition](https://ieeexplore.ieee.org/abstract/document/10208224), IEEE Transactions on Instrumentation and Measurement (TIM), 2023.
-- Yu Zhou, **Jia Zeng**, et al. [Voluntary and FES-induced finger movement estimation using muscle deformation features](https://ieeexplore.ieee.org/abstract/document/8733202), IEEE Transactions on Industrial Electronics (TIE), 2019.
 
 # 🧑‍💻 Career Experience
 <div class='paper-box-right'><div class='paper-box-image'><div><a href="https://www.shlab.org.cn/"><img src='images/institutions/shailab.png' alt="sym" width="150px" style="padding: 5px;"></a></div></div>

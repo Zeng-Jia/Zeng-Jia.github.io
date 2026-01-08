@@ -26,6 +26,22 @@ I am currently a researcher at [Shanghai AI Labotory](https://www.shlab.org.cn/)
 
 ## 🤖 Embodied AI <span style="font-size: small; float: right; color: gray;"> * indicates equal contribution, ✉️ indicates corresponding author </span> 
 
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Preprint</div><img src='images/publications/InternVLA-A1.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1" style="font-family:  Noto Serif, Georgia, serif; font-size: 14px;">
+[**InternVLA-A1: Unifying Understanding, Generation, and Action for Robotic Manipulation**](https://arxiv.org/pdf/2601.02456)
+
+InternVLA-A1 Team (**Jia Zeng**: project lead & core contributor)
+
+- *We present **InternVLA-A1**, which unifies scene <u>understanding</u>, visual foresight <u>generation</u>, and <u>action</u> execution into a single framework.*
+
+- 🔮 *The Core: Synergizes MLLM's semantic understanding with world-model-style dynamic prediction, to "imagine" the future and guide adaptive actions.*
+- 🚀 *The Fuel: Empowered by high-fidelity synthetic data ([InternData-A1]((https://huggingface.co/datasets/InternRobotics/InternData-A1))).*
+- ⚡ The Output: Tackles highly dynamic scenarios with effortless mastery.
+- [arXiv](https://arxiv.org/pdf/2601.02456) \| [Code](https://github.com/InternRobotics/InternVLA-A1)  \| [Model](https://huggingface.co/InternRobotics/InternVLA-A1-3B)    \| [Project Page](https://internrobotics.github.io/internvla-a1.github.io/)
+
+</div>
+</div>
+
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">Preprint</div><img src='images/publications/InternData-A1.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1" style="font-family:  Noto Serif, Georgia, serif; font-size: 14px;">
 [**InternData-A1: Pioneering High-Fidelity Synthetic Data
@@ -93,19 +109,6 @@ Qi Lv$^\ast$, Weijie Kong$^\ast$, Hao Li$^\ast$, **Jia Zeng**✉️, Zherui Qiu,
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">RSS 2025</div><img src='images/publications/RSS2025-RoboSplat.png' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1" style="font-family:  Noto Serif, Georgia, serif; font-size: 14px;">
-[**Novel Demonstration Generation with Gaussian Splatting Enables Robust One-Shot Manipulation**](https://arxiv.org/abs/2504.13175)
-
- Sizhe Yang$^\ast$, Wenye Yu$^\ast$, **Jia Zeng**, Jun Lv, Kerui Ren, Cewu Lu, Dahua Lin, Jiangmiao Pang
-
-- ***RoboSplat** is framework that leverages 3D Gaussian Splatting (3DGS) to generate novel demonstrations for RGB-based policy learning. RoboSplat can generate diverse and visually realistic data across six types of generalization (object poses, object types, camera views, scene appearance, lighting conditions, and embodiments).*
-
-- [RSS 2025](https://arxiv.org/abs/2504.13175) \| [Project Page](https://yangsizhe.github.io/robosplat/) \| [Code](https://github.com/OpenRobotLab/robosplat) 
-</div>
-</div>
-
-
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">RSS 2025</div><img src='images/publications/RSS2025-Homie.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1" style="font-family:  Noto Serif, Georgia, serif; font-size: 14px;">
 [**HOMIE: Humanoid Loco-Manipulation with Isomorphic Exoskeleton Cockpit**](https://arxiv.org/abs/2502.13013)
@@ -115,6 +118,18 @@ Qi Lv$^\ast$, Weijie Kong$^\ast$, Hao Li$^\ast$, **Jia Zeng**✉️, Zherui Qiu,
 - *we propose **HOMIE**, a novel humanoid teleoperation cockpit integrates a humanoid loco-manipulation policy and a low-cost exoskeleton-based hardware system.*
 
 - [RSS 2025](https://arxiv.org/abs/2502.13013) \| [Project Page](https://homietele.github.io/) \| [Code](https://github.com/OpenRobotLab/OpenHomie) 
+</div>
+</div>
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">RSS 2025</div><img src='images/publications/RSS2025-RoboSplat.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1" style="font-family:  Noto Serif, Georgia, serif; font-size: 14px;">
+[**Novel Demonstration Generation with Gaussian Splatting Enables Robust One-Shot Manipulation**](https://arxiv.org/abs/2504.13175)
+
+ Sizhe Yang$^\ast$, Wenye Yu$^\ast$, **Jia Zeng**, Jun Lv, Kerui Ren, Cewu Lu, Dahua Lin, Jiangmiao Pang
+
+- ***RoboSplat** is framework that leverages 3D Gaussian Splatting (3DGS) to generate novel demonstrations for RGB-based policy learning. RoboSplat can generate diverse and visually realistic data across six types of generalization (object poses, object types, camera views, scene appearance, lighting conditions, and embodiments).*
+
+- [RSS 2025](https://arxiv.org/abs/2504.13175) \| [Project Page](https://yangsizhe.github.io/robosplat/) \| [Code](https://github.com/OpenRobotLab/robosplat) 
 </div>
 </div>
 
@@ -141,8 +156,7 @@ Yuyin Yang$^\ast$, Zetao Cai$^\ast$, Yang Tian, **Jia Zeng**, Jiangmiao Pang
 
 **Jia Zeng**, Li Chen, Hanming Deng, Lewei Lu, Junchi Yan, Yu Qiao, Hongyang Li
 
-- We apply knowledge distillation to camera-only 3D object detection, investigate how to distill focal knowledge when confronted with
-an imperfect 3D object detector teacher.
+- *We apply knowledge distillation to camera-only 3D object detection, investigate how to distill focal knowledge when confronted with an imperfect 3D object detector teacher.*
 - [CVPR 2023](https://openaccess.thecvf.com/content/CVPR2023/html/Zeng_Distilling_Focal_Knowledge_From_Imperfect_Expert_for_3D_Object_Detection_CVPR_2023_paper.html)
 
 </div>

@@ -36,7 +36,7 @@ InternVLA-A1 Team (**Jia Zeng**: project lead & core contributor)
 
 - 🔮 *The Core: Synergizes MLLM's semantic understanding with world-model-style dynamic prediction, to "imagine" the future and guide adaptive actions.*
 - 🚀 *The Fuel: Empowered by high-fidelity synthetic data ([InternData-A1](https://huggingface.co/datasets/InternRobotics/InternData-A1)).*
-- ⚡ The Output: Tackles highly dynamic scenarios with effortless mastery.
+- ⚡ The Output: A VLA model that tackles highly dynamic scenarios with effortless mastery.
 - [arXiv](https://arxiv.org/pdf/2601.02456) \| [Code](https://github.com/InternRobotics/InternVLA-A1)  \| [Model](https://huggingface.co/InternRobotics/InternVLA-A1-3B)    \| [Project Page](https://internrobotics.github.io/internvla-a1.github.io/)
 
 </div>
@@ -198,7 +198,7 @@ Hongyang Li$^\ast$, Yang Li$^\ast$, Huijie Wang$^\ast$, **Jia Zeng$^\ast$**, Hui
 # 🧑‍💻 Career Experience
 <div class='paper-box-right'><div class='paper-box-image'><div><a href="https://www.shlab.org.cn/"><img src='images/institutions/shailab.png' alt="sym" width="150px" style="padding: 5px;"></a></div></div>
 <div class='paper-box-text' markdown="1">
-## Shanghai AI Labotory, Researcher
+## Shanghai AI Labotory, Research scientist
 
 *2023.09 - (present)*.
 - **Embodied foundation model and generalizable robotic manipulation.**

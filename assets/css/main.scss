@@ -161,16 +161,32 @@ h1:before, .anchor:before {
     margin-top: -$scroll_offset;
 }
 
+// .badge {
+//     padding-left: 1rem;
+//     padding-right: 1rem;
+//     position: absolute;
+//     margin-top: .5em;
+//     margin-left: -.5em;
+//     color: white;
+//     background-color: #00369f;
+//     font-size: .8em;
+// }
+
 .badge {
     padding-left: 1rem;
     padding-right: 1rem;
     position: absolute;
     margin-top: .5em;
     margin-left: -.5em;
+
     color: white;
-    background-color: #00369f;
+    background-color: rgba(0, 54, 159, 0.7); /* #00369f → RGBA，alpha=0.5 */
     font-size: .8em;
+
+    pointer-events: none; /* 若徽标不需要点击，保留这行以免遮挡交互 */
 }
+
+
 
 .tooltip {
     position: relative;

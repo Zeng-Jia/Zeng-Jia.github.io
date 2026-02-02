@@ -35,7 +35,7 @@ InternVLA-A1 Team (**Jia Zeng**: project lead & core contributor)
 - *We present **InternVLA-A1**, which unifies scene <u>understanding</u>, visual foresight <u>generation</u>, and <u>action</u> execution into a single framework.*
 
 - 🔮 *The Core: Synergizes MLLM's semantic understanding with world-model-style dynamic prediction, to "imagine" the future and guide adaptive actions.*
-- 🚀 *The Fuel: Empowered by high-fidelity synthetic data ([InternData-A1](https://huggingface.co/datasets/InternRobotics/InternData-A1)).*
+- 🚀 *The Fuel: Enables joint training on heterogeneous data sources over real-world robot data, synthetic simulation data, and egocentric human videos.*
 - ⚡ The Output: A VLA model that tackles highly dynamic scenarios with effortless mastery.
 - [arXiv](https://arxiv.org/pdf/2601.02456) \| [Code](https://github.com/InternRobotics/InternVLA-A1)  \| [Model](https://huggingface.co/InternRobotics/InternVLA-A1-3B)    \| [Project Page](https://internrobotics.github.io/internvla-a1.github.io/)
 
@@ -146,9 +146,6 @@ Yuyin Yang$^\ast$, Zetao Cai$^\ast$, Yang Tian, **Jia Zeng**, Jiangmiao Pang
 </div>
 
 
-
-
-
 ## 🚗 Autonomous Driving
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR 2023</div><img src='images/publications/cvpr2023-focaldistiller.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1" style="font-family:  Noto Serif, Georgia, serif; font-size: 14px;">
@@ -158,6 +155,28 @@ Yuyin Yang$^\ast$, Zetao Cai$^\ast$, Yang Tian, **Jia Zeng**, Jiangmiao Pang
 
 - *We apply knowledge distillation to camera-only 3D object detection, investigate how to distill focal knowledge when confronted with an imperfect 3D object detector teacher.*
 - [CVPR 2023](https://openaccess.thecvf.com/content/CVPR2023/html/Zeng_Distilling_Focal_Knowledge_From_Imperfect_Expert_for_3D_Object_Detection_CVPR_2023_paper.html)
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">IEEE T-PAMI 2023</div><img src='images/publications/tpami2023-bev_survey.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1" style="font-family:  Noto Serif, Georgia, serif; font-size: 14px;">
+[**Delving Into the Devils of Bird’s-Eye-View Perception: A Review, Evaluation and Recipe**](https://ieeexplore.ieee.org/abstract/document/10321736)
+
+**Jia Zeng**: Co-first author
+
+- *we conduct a thorough review on Bird’s-Eye-View (BEV) perception in recent years and provide a practical recipe according to our analysis in BEV design pipeline.*
+- [IEEE T-PAMI](https://ieeexplore.ieee.org/abstract/document/10321736) \| [Github](https://github.com/OpenDriveLab/Birds-eye-view-Perception)
+</div>
+</div>
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">SCIENTIA SINICA Informationis</div><img src='images/publications/data-ecosystem.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1" style="font-family:  Noto Serif, Georgia, serif; font-size: 14px;">
+[**Open-sourced data ecosystem in autonomous driving: the present and future**](https://arxiv.org/abs/2312.03408)
+
+**Jia Zeng**: Co-first author
+
+- *We undertakes an exhaustive analysis and discourse regarding the characteristics and data scales that future third-generation autonomous driving datasets should possess.*
+- [SCIENTIA SINICA Informationis](https://www.sciengine.com/SSI/doi/10.1360/SSI-2023-0313) \| [arXiv](https://arxiv.org/abs/2312.03408)
+</div>
+</div>
 
 </div>
 </div>
@@ -170,28 +189,6 @@ Linyan Huang, Huijie Wang, **Jia Zeng**, et al.
 
 - *We propose a geometric-aware pretraining method called **GAPretrain**, which distills geometric-rich information from LiDAR modality into camera-based 3D object detectors.*
 - [arXiv](https://arxiv.org/abs/2304.03105)
-</div>
-</div>
-
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">IEEE T-PAMI 2023</div><img src='images/publications/tpami2023-bev_survey.png' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1" style="font-family:  Noto Serif, Georgia, serif; font-size: 14px;">
-[**Delving Into the Devils of Bird’s-Eye-View Perception: A Review, Evaluation and Recipe**](https://ieeexplore.ieee.org/abstract/document/10321736)
-
-Hongyang Li$^\ast$, Chonghao Sima$^\ast$, Jifeng Dai$^\ast$, Wenhai Wang$^\ast$, Lewei Lu$^\ast$, Huijie Wang$^\ast$, **Jia Zeng$^\ast$**, Zhiqi Li$^\ast$, et al.
-
-- *we conduct a thorough review on Bird’s-Eye-View (BEV) perception in recent years and provide a practical recipe according to our analysis in BEV design pipeline.*
-- [IEEE T-PAMI](https://ieeexplore.ieee.org/abstract/document/10321736) \| [Github](https://github.com/OpenDriveLab/Birds-eye-view-Perception)
-</div>
-</div>
-
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">SCIENTIA SINICA Informationis</div><img src='images/publications/data-ecosystem.png' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1" style="font-family:  Noto Serif, Georgia, serif; font-size: 14px;">
-[**Open-sourced data ecosystem in autonomous driving: the present and future**](https://arxiv.org/abs/2312.03408)
-
-Hongyang Li$^\ast$, Yang Li$^\ast$, Huijie Wang$^\ast$, **Jia Zeng$^\ast$**, Huilin Xu, et al.
-
-- *We undertakes an exhaustive analysis and discourse regarding the characteristics and data scales that future third-generation autonomous driving datasets should possess.*
-- [SCIENTIA SINICA Informationis](https://www.sciengine.com/SSI/doi/10.1360/SSI-2023-0313) \| [arXiv](https://arxiv.org/abs/2312.03408)
 </div>
 </div>
 
@@ -243,4 +240,4 @@ Hongyang Li$^\ast$, Yang Li$^\ast$, Huijie Wang$^\ast$, **Jia Zeng$^\ast$**, Hui
 - Reviewer for `CVPR`, `ECCV`, `NeurIPS`, `ICLR`, `ICML`, etc.
 - Member of CAAI-Embodied AI Committee.
 
-  
+

@@ -94,6 +94,7 @@ Qi Lv$^\ast$, Weijie Kong$^\ast$, Hao Li$^\ast$, **Jia Zeng**✉️, Zherui Qiu,
 
 - *We propose ​**CLOVER**, which employs a text-conditioned video diffusion model for generating visual plans as reference inputs, then  leverages these sub-goals to guide the feedback-driven policy to generate actions with an error measurement strategy.* 
 - [NeurIPS 2024](https://arxiv.org/abs/2409.09016) \| [Code](https://github.com/OpenDriveLab/CLOVER) 
+
 </div>
 </div>
 
@@ -106,6 +107,7 @@ Qi Lv$^\ast$, Weijie Kong$^\ast$, Hao Li$^\ast$, **Jia Zeng**✉️, Zherui Qiu,
 - *We propose an end-to-end model, **Seer**, which employs an inverse dynamics model based on the robot’s predicted visual states to forecast actions. We term such architectural framework the **Predictive Inverse Dynamics Model (PIDM)**.*
 
 - [ICLR 2025](https://arxiv.org/abs/2412.15109) \| [Project Page](https://nimolty.github.io/Seer/) \| [Code](https://github.com/OpenRobotLab/Seer) 
+
 </div>
 </div>
 
@@ -118,6 +120,7 @@ Qi Lv$^\ast$, Weijie Kong$^\ast$, Hao Li$^\ast$, **Jia Zeng**✉️, Zherui Qiu,
 - *we propose **HOMIE**, a novel humanoid teleoperation cockpit integrates a humanoid loco-manipulation policy and a low-cost exoskeleton-based hardware system.*
 
 - [RSS 2025](https://arxiv.org/abs/2502.13013) \| [Project Page](https://homietele.github.io/) \| [Code](https://github.com/OpenRobotLab/OpenHomie) 
+
 </div>
 </div>
 
@@ -130,6 +133,7 @@ Qi Lv$^\ast$, Weijie Kong$^\ast$, Hao Li$^\ast$, **Jia Zeng**✉️, Zherui Qiu,
 - ***RoboSplat** is framework that leverages 3D Gaussian Splatting (3DGS) to generate novel demonstrations for RGB-based policy learning. RoboSplat can generate diverse and visually realistic data across six types of generalization (object poses, object types, camera views, scene appearance, lighting conditions, and embodiments).*
 
 - [RSS 2025](https://arxiv.org/abs/2504.13175) \| [Project Page](https://yangsizhe.github.io/robosplat/) \| [Code](https://github.com/OpenRobotLab/robosplat) 
+
 </div>
 </div>
 
@@ -142,11 +146,13 @@ Yuyin Yang$^\ast$, Zetao Cai$^\ast$, Yang Tian, **Jia Zeng**, Jiangmiao Pang
 - ***PPI** integrates the prediction of target gripper poses and object pointflow with the continuous actions estimation, providing enhanced spatial localization and satisfying flexibility in handling movement restrictions.*
 
 - [RSS 2025](https://arxiv.org/abs/2504.17784) \| [Project Page](https://yuyinyang3y.github.io/PPI/) \| [Code](https://github.com/OpenRobotLab/PPI) 
+
 </div>
 </div>
 
 
 ## 🚗 Autonomous Driving
+
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR 2023</div><img src='images/publications/cvpr2023-focaldistiller.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1" style="font-family:  Noto Serif, Georgia, serif; font-size: 14px;">
 [**Distilling Focal Knowledge From Imperfect Expert for 3D Object Detection**](https://openaccess.thecvf.com/content/CVPR2023/html/Zeng_Distilling_Focal_Knowledge_From_Imperfect_Expert_for_3D_Object_Detection_CVPR_2023_paper.html)
@@ -155,6 +161,7 @@ Yuyin Yang$^\ast$, Zetao Cai$^\ast$, Yang Tian, **Jia Zeng**, Jiangmiao Pang
 
 - *We apply knowledge distillation to camera-only 3D object detection, investigate how to distill focal knowledge when confronted with an imperfect 3D object detector teacher.*
 - [CVPR 2023](https://openaccess.thecvf.com/content/CVPR2023/html/Zeng_Distilling_Focal_Knowledge_From_Imperfect_Expert_for_3D_Object_Detection_CVPR_2023_paper.html)
+
 </div>
 </div>
 
@@ -166,6 +173,7 @@ Yuyin Yang$^\ast$, Zetao Cai$^\ast$, Yang Tian, **Jia Zeng**, Jiangmiao Pang
 
 - *we conduct a thorough review on Bird’s-Eye-View (BEV) perception in recent years and provide a practical recipe according to our analysis in BEV design pipeline.*
 - [IEEE T-PAMI](https://ieeexplore.ieee.org/abstract/document/10321736) \| [Github](https://github.com/OpenDriveLab/Birds-eye-view-Perception)
+
 </div>
 </div>
 
@@ -177,6 +185,7 @@ Yuyin Yang$^\ast$, Zetao Cai$^\ast$, Yang Tian, **Jia Zeng**, Jiangmiao Pang
 
 - *We undertakes an exhaustive analysis and discourse regarding the characteristics and data scales that future third-generation autonomous driving datasets should possess.*
 - [SCIENTIA SINICA Informationis](https://www.sciengine.com/SSI/doi/10.1360/SSI-2023-0313) \| [arXiv](https://arxiv.org/abs/2312.03408)
+
 </div>
 </div>
 
@@ -188,6 +197,7 @@ Linyan Huang, Huijie Wang, **Jia Zeng**, et al.
 
 - *We propose a geometric-aware pretraining method called **GAPretrain**, which distills geometric-rich information from LiDAR modality into camera-based 3D object detectors.*
 - [arXiv](https://arxiv.org/abs/2304.03105)
+
 </div>
 </div>
 

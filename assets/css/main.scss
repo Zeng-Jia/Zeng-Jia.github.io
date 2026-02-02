@@ -183,7 +183,7 @@ h1:before, .anchor:before {
     background-color: rgba(0, 54, 159, 0.7); /* #00369f → RGBA，alpha=0.5 */
     font-size: .8em;
 
-    pointer-events: none; /* 若徽标不需要点击，保留这行以免遮挡交互 */
+    pointer-events: none;
 }
 
 

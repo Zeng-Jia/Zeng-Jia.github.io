@@ -155,6 +155,8 @@ Yuyin Yang$^\ast$, Zetao Cai$^\ast$, Yang Tian, **Jia Zeng**, Jiangmiao Pang
 
 - *We apply knowledge distillation to camera-only 3D object detection, investigate how to distill focal knowledge when confronted with an imperfect 3D object detector teacher.*
 - [CVPR 2023](https://openaccess.thecvf.com/content/CVPR2023/html/Zeng_Distilling_Focal_Knowledge_From_Imperfect_Expert_for_3D_Object_Detection_CVPR_2023_paper.html)
+</div>
+</div>
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">IEEE T-PAMI 2023</div><img src='images/publications/tpami2023-bev_survey.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1" style="font-family:  Noto Serif, Georgia, serif; font-size: 14px;">
@@ -175,9 +177,6 @@ Yuyin Yang$^\ast$, Zetao Cai$^\ast$, Yang Tian, **Jia Zeng**, Jiangmiao Pang
 
 - *We undertakes an exhaustive analysis and discourse regarding the characteristics and data scales that future third-generation autonomous driving datasets should possess.*
 - [SCIENTIA SINICA Informationis](https://www.sciengine.com/SSI/doi/10.1360/SSI-2023-0313) \| [arXiv](https://arxiv.org/abs/2312.03408)
-</div>
-</div>
-
 </div>
 </div>
 

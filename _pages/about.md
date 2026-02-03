@@ -124,7 +124,7 @@ Qi Lv$^\ast$, Weijie Kong$^\ast$, Hao Li$^\ast$, **Jia Zeng**✉️, Zherui Qiu,
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">RSS 2025</div><img src='images/publications/RSS2025-RoboSplat.png' alt="sym" width="100%"></div></div>
+<!-- <div class='paper-box'><div class='paper-box-image'><div><div class="badge">RSS 2025</div><img src='images/publications/RSS2025-RoboSplat.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1" style="font-family:  Noto Serif, Georgia, serif; font-size: 14px;">
 [**Novel Demonstration Generation with Gaussian Splatting Enables Robust One-Shot Manipulation**](https://arxiv.org/abs/2504.13175)
 
@@ -135,9 +135,9 @@ Qi Lv$^\ast$, Weijie Kong$^\ast$, Hao Li$^\ast$, **Jia Zeng**✉️, Zherui Qiu,
 - [RSS 2025](https://arxiv.org/abs/2504.13175) \| [Project Page](https://yangsizhe.github.io/robosplat/) \| [Code](https://github.com/OpenRobotLab/robosplat) 
 
 </div>
-</div>
+</div> -->
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">RSS 2025</div><img src='images/publications/RSS2025-PPI.png' alt="sym" width="100%"></div></div>
+<!-- <div class='paper-box'><div class='paper-box-image'><div><div class="badge">RSS 2025</div><img src='images/publications/RSS2025-PPI.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1" style="font-family:  Noto Serif, Georgia, serif; font-size: 14px;">
 [**Gripper Keypose and Object Pointflow as Interfaces for Bimanual Robotic Manipulation**](https://arxiv.org/abs/2504.17784)
 
@@ -148,7 +148,7 @@ Yuyin Yang$^\ast$, Zetao Cai$^\ast$, Yang Tian, **Jia Zeng**, Jiangmiao Pang
 - [RSS 2025](https://arxiv.org/abs/2504.17784) \| [Project Page](https://yuyinyang3y.github.io/PPI/) \| [Code](https://github.com/OpenRobotLab/PPI) 
 
 </div>
-</div>
+</div> -->
 
 
 ## 🚗 Autonomous Driving

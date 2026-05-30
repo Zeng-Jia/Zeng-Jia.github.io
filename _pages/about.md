@@ -124,6 +124,30 @@ Qi Lv$^\ast$, Weijie Kong$^\ast$, Hao Li$^\ast$, **Jia Zeng**✉️, Zherui Qiu,
 </div>
 </div>
 
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR 2026</div><img src='images/publications/forcevla2.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1" style="font-family:  Noto Serif, Georgia, serif; font-size: 14px;">
+[**ForceVLA2: Unleashing Hybrid Force-Position Control with Force Awareness for Contact-Rich Manipulation**](https://arxiv.org/pdf/2603.15169v1)
+
+Yang Li$^\ast$, Zhaxizhuoma$^\ast$, Hongru Jiang$^\ast$, Junjie Xia$^\ast$, Hongquan Zhang, Jinda Du, Yunsong Zhou✉️, **Jia Zeng**✉️, Ce Hao, Jieji Ren, Qiaojun Yu✉️, et al.
+
+- *We propose ​**ForceVLA2**, an end-to-end vision-language-action framework that equips robots with hybrid force-position control and explicit force awareness.*
+- [CVPR 2026](https://arxiv.org/pdf/2603.15169v1) \| [Project Page](https://sites.google.com/view/force-vla2/home)
+
+</div>
+</div>
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR 2026</div><img src='images/publications/futurevla.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1" style="font-family:  Noto Serif, Georgia, serif; font-size: 14px;">
+[**FutureVLA: Joint Visuomotor Prediction for Vision-Language-Action Model**](https://arxiv.org/pdf/2603.10712)
+
+Xiaoxu Xu$^\ast$, Hao Li$^\ast$, Jinhui Ye, Yilun Chen✉️, **Jia Zeng**✉️, Xinyi Chen, Linning Xu, Dahua Lin, Weixin Li, Jiangmiao Pang✉️.
+
+- *We propose ​**FutureVLA**, a framework that extracts physically grounded joint visuomotor embeddings to guide downstream VLA models.*
+- [arXiv](https://arxiv.org/pdf/2603.10712) \| [Project Page](https://xuxiaoxxxx.github.io/projects/futurevla/) \| [Code](https://github.com/xuxiaoxxxx/FutureVLA)
+
+</div>
+</div>
+
 <!-- <div class='paper-box'><div class='paper-box-image'><div><div class="badge">RSS 2025</div><img src='images/publications/RSS2025-RoboSplat.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1" style="font-family:  Noto Serif, Georgia, serif; font-size: 14px;">
 [**Novel Demonstration Generation with Gaussian Splatting Enables Robust One-Shot Manipulation**](https://arxiv.org/abs/2504.13175)

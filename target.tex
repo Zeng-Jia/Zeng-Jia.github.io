@@ -1,0 +1,305 @@
+\documentclass[conference]{IEEEtran}
+\usepackage{times}
+
+% numbers option provides compact numerical references in the text. 
+\usepackage[numbers]{natbib}
+\usepackage[bookmarks=true]{hyperref}
+
+\usepackage{dblfloatfix}
+\usepackage{listings}
+\usepackage{url}
+\usepackage{graphicx}
+\usepackage{amsmath} %
+\usepackage{multicol,multirow} 
+\usepackage{mathrsfs} %
+\usepackage{etoolbox}
+\usepackage{cleveref}
+\usepackage{tcolorbox}
+\usepackage{colortbl}
+\usepackage{booktabs}       %
+\usepackage{amsfonts}       %
+\usepackage{nicefrac}       %
+\usepackage{microtype}      %
+\usepackage{caption}
+\usepackage{xspace} % 
+\usepackage{subcaption}
+\usepackage{algorithm}
+\usepackage{algorithmic}
+\usepackage{multirow}
+\usepackage{subcaption}
+\usepackage{lipsum}
+\usepackage{adjustbox}
+
+\usepackage{booktabs} %
+% \usepackage{enumitem,kantlipsum}
+
+
+\usepackage{graphicx}    
+\usepackage{pifont}
+\usepackage{minted}
+\usepackage{ulem}
+\usepackage{xcolor}
+\usepackage{longtable}
+\usepackage{makecell} % for multirowcell
+\usepackage{listings}
+\usepackage{xcolor}
+
+\newcommand{\modelname}{InternVLA-A1\xspace}
+\definecolor{LightSlateBlue}{RGB}{70,130,180}
+
+\pdfinfo{
+   /Author (Homer Simpson)
+   /Title  (Robots: Our new overlords)
+   /CreationDate (D:20101201120000)
+   /Subject (Robots)
+   /Keywords (Robots;Overlords)
+}
+\newcommand{\rssparagraph}[1]{{\bf #1.}}
+
+\begin{document}
+
+% % paper title
+% \title{InternVLA-A1: Unifying Understanding, Generation and
+% Action for Robotic Manipulation}
+
+% % You will get a Paper-ID when submitting a pdf file to the conference system
+% \author{Author Names Omitted for Anonymous Review. Paper-ID [399]}
+
+%%%%%%%%% BODY TEXT - ENTER YOUR RESPONSE BELOW
+% After receiving paper reviews, authors might be invited to submit a rebuttal. 
+% The rebuttal is limited to a {\bf one page PDF file}. The one page PDF must include all the material in the rebuttal, including potential figures, tables,  references, etc.
+% Rebuttals longer than one page will not be reviewed. The same applies to rebuttals where the margins and formatting are deemed to have been altered from the RSS template.
+We thank \textbf{\textcolor{orange}{the area chair}} and \textbf{all the reviewers} for their constructive feedback.
+We are encouraged by the recognition of our contributions:
+\textbf{\textcolor{orange}{The area chair}} and \textbf{all reviewers} considered our work well motivated.
+\textbf{\textcolor{orange}{The area chair}}, \textbf{\textcolor{green}{reviewer siYT}}, and \textbf{\textcolor{purple}{KTvZ}} acknowledged the novelty of our demonstration generation method, and the practicability of our frame alignment approach.
+\textbf{\textcolor{orange}{The area chair}} and \textbf{\textcolor{pink}{reviewer o67K}} commended the unified pipeline that systematically augments various aspects of the demonstration.
+\textbf{\textcolor{orange}{The area chair}}, \textbf{\textcolor{green}{reviewer siYT}}, \textbf{\textcolor{pink}{o67K}}, and \textbf{\textcolor{purple}{KTvZ}} recognized the impressive improvements over baselines.
+% \textbf{The area chair} thought the supplemental video and overall clarity of the experimental setup were well received, and 
+% \textbf{Reviewer vxhy} viewed our supplemental video as extremely well done and entertaining.
+In this rebuttal, we address the key concerns of the area chair and the reviewers. 
+
+%-------------------------------------------------------------------------
+
+\rssparagraph{Limited baseline comparisons}
+% The goal of the rebuttal is to refute any factual errors in the reviews or to supply additional information or clarifications requested by the reviewers. Rebuttals may include minor additional experiments or analysis requested by reviewers. They may also include figures, tables, references, or proofs to better illustrate your arguments.
+\textbf{\textcolor{orange}{The area chair}}, \textbf{\textcolor{green}{reviewer siYT}}, and \textbf{\textcolor{pink}{o67K}} mentioned the lack of comparisons between our approach and other data augmentation methods.
+Thus, we carry out further experiments involving baselines that augment real-world data in terms of \textit{camera view}, \textit{object type}, \textit{lighting condition}, and \textit{scene appearance}. 
+% The policies are evaluated using the same protocol as described in the main paper.
+For each generalization type, we compare the performance of three policies respectively trained on: 
+(1) source demonstrations from human teleoperation;
+(2) source demonstrations augmented with baseline approaches;
+(3) demonstrations generated using our pipeline.
+
+Regarding camera view augmentation, we compare our method with RoVi-Aug~\citep{chen2024rovi}, which leverages novel view synthesis models to augment demonstrations from different views.
+We conduct the comparison only on \textit{Pick Object} task due to the prohibitive time consumption of data augmentation using the baseline approach.
+RoVi-Aug augments 200 source demonstrations to 3,200, matching the quantity generated by our pipeline.
+We evaluate the policies in static novel view and moving views.
+The results are demonstrated in Table~\ref{tab:camera_view_exp_rebuttal}.
+Our method has a salient advantage over the baselines under unseen camera views, by over 50\% in success rate.
+
+% \vspace{-2mm}
+
+% \begin{table}[h]
+% \centering
+% \caption{\textbf{Comparison with baselines: camera view.}}
+% \input{rss2025-rebuttal-template-latex/tab/camera_view_exp_rebuttal}
+% \label{tab:camera_view_exp_rebuttal}
+% \end{table}
+
+% \vspace{-3mm}
+
+Our approach also exhibits superior performance in face of novel object types over ROSIE~\cite{yu2023scaling}, which utilizes image-inpainting models to generate demonstrations with unseen objects.
+ROSIE augments 400 source demonstrations to 6,400, matching the quantity augmented by our method.
+% We compare the performance of three policies trained respectively on: 
+% (1) 400 human-teleoperated demonstrations with 5 real-world objects;
+% (2) 6,400 augmented demonstrations using ROSIE;
+% (3) 6,400 generated demonstrations using our pipeline.
+The experiment result is shown in Table~\ref{tab:object_type_exp_rebuttal}.
+
+% \vspace{-2mm}
+
+% \begin{table}[h]
+% \centering
+% \caption{\textbf{Comparison with baselines: object type.}}
+% \input{rss2025-rebuttal-template-latex/tab/object_type_exp_rebuttal}
+% \label{tab:object_type_exp_rebuttal}
+% \end{table}
+
+% \vspace{-3mm}
+
+\vspace{-4mm}
+
+
+\begin{table}[h]
+\raggedright
+\begin{subtable}[t]{0.52\linewidth}
+    \caption{\textbf{Camera view (\%)}}
+    \input{rss2025-rebuttal-template-latex/tab/camera_view_exp_rebuttal}
+    \label{tab:camera_view_exp_rebuttal}
+\end{subtable}
+\begin{subtable}[t]{0.3\linewidth}
+    \caption{\textbf{Object type (\%)}}
+    \input{rss2025-rebuttal-template-latex/tab/object_type_exp_rebuttal}
+    \label{tab:object_type_exp_rebuttal}
+\end{subtable}
+\caption{\textbf{Comparison with baselines.}}
+\vspace{-2mm}
+\end{table}
+
+
+% \begin{table}[h]
+% % \centering
+% \raggedright
+% \begin{subtable}[t]{0.52\linewidth}
+%     % \centering
+%     \raggedright\arraybackslash
+%     \caption{\textbf{Camera view (\%)}}
+%     \input{rss2025-rebuttal-template-latex/tab/camera_view_exp_rebuttal}
+%     \label{tab:camera_view_exp_rebuttal}
+% \end{subtable}
+% \begin{subtable}[t]{0.3\linewidth}
+%     % \centering
+%     \raggedright\arraybackslash
+%     \caption{\textbf{Object type (\%)}}
+%     \input{rss2025-rebuttal-template-latex/tab/object_type_exp_rebuttal}
+%     \label{tab:object_type_exp_rebuttal}
+% \end{subtable}
+% \caption{\textbf{Comparison with baselines.}}
+% \vspace{-2mm}
+% \end{table}
+
+\vspace{-3mm}
+
+
+We compare our method with the color jitter under novel lighting conditions and scene appearance.
+We evaluate three policies that are trained respectively on:
+(1) 200 human-teleoperated demonstrations;
+(2) demonstrations augmented with color jitter in dataloader;
+(3) 3,200 demonstrations generated using our pipeline.
+The result is illustrated in Fig.~\ref{fig:lighting_appearance_exp_rebuttal}.
+Our method showcases stronger generalization to unseen lighting conditions and scene appearance in all tasks by a large margin.
+
+% \vspace{-2mm}
+
+\begin{figure}[h]
+    \vspace{-3mm}
+    \centering
+    \includegraphics[width=0.95\linewidth]{rss2025-rebuttal-template-latex/fig/lighting_appearance_exp_rebuttal.pdf}
+    % \vspace{0em}
+    \caption{\textbf{Comparison with baselines: lighting \& appearance.}}
+    \label{fig:lighting_appearance_exp_rebuttal}
+    \vspace{-3mm}
+\end{figure}
+
+% \vspace{-3mm}
+
+%-------------------------------------------------------------------------
+% \begin{figure}[h]
+%     \centering
+%     \subfigure[Task illustration]{ \includegraphics[width=0.4\linewidth]{rss2025-rebuttal-template-latex/fig/lighting_appearance_exp_rebuttal.pdf}
+%     }
+%     \subfigure[Task illustration]{ \includegraphics[width=0.4\linewidth]{rss2025-rebuttal-template-latex/fig/lighting_appearance_exp_rebuttal.pdf}
+%     }
+%     % \vspace{0em}
+%     \caption{\textbf{Comparison with baselines: lighting \& appearance.}}
+%     \label{fig:sweep}
+% \end{figure}
+\begin{figure}[h]
+    \vspace{-4mm}
+    \centering
+    \begin{subfigure}[b]{0.4\linewidth}
+        \centering
+        \includegraphics[width=\linewidth]{rss2025-rebuttal-template-latex/fig/task_setup_sweep.pdf}
+        \caption{Task illustration.}
+        \label{fig:sweep_illustration}
+    \end{subfigure}
+    \begin{subfigure}[b]{0.47\linewidth}
+        \centering
+        \includegraphics[width=\linewidth]{rss2025-rebuttal-template-latex/fig/sweep_cropped.pdf}
+        \caption{Results.}
+        \label{fig:sweep_result}
+    \end{subfigure}
+    \vspace{-2mm}
+    \caption{\textbf{Illustration and results for the \textit{Sweep} task.}}
+    \label{fig:sweep}
+    \vspace{-3mm}
+\end{figure}
+
+
+\rssparagraph{Limited to pick-and-place tasks}
+\textbf{\textcolor{orange}{The area chair}}, \textbf{\textcolor{purple}{reviewer KTvZ}}, and \textbf{\textcolor{blue}{vxhy}} noted the experiments are primarily limited to relatively simple pick-and-place tasks. 
+We should emphasize that \textit{Close Drawer} and \textit{Pick-Place-Close} in our experiments involve articulated object manipulation, while \textit{Pick-Place-Close} and \textit{Dual Pick-Place}, consisting of three or four primitive skills, entail long-horizon manipulation. 
+% Further extending the horizon of tasks that a policy can accomplish remains an open problem. 
+To further convince the area chair and the reviewers that our framework can be applied to non-pick-and-place and more complex skills, we conduct experiments on a new task dubbed \textit{Sweep}, as illustrated in Fig.~\ref{fig:sweep_illustration}. 
+In this task, the robot first picks up a broom and then sweeps the chocolate beans into a dustpan, which involves tool use and functional motions. 
+As shown in Fig.~\ref{fig:sweep_result}, the policy trained on data generated by our framework outperforms that trained on collected demonstrations.
+
+%-------------------------------------------------------------------------
+\rssparagraph{Obstacle avoidance was not considered during data generation}
+\textbf{\textcolor{orange}{The area chair}}, \textbf{\textcolor{green}{reviewer siYT}}, and \textbf{\textcolor{blue}{vxhy}} mentioned that our method does not take obstacle avoidance into account, which limits its application in cluttered scenarios. 
+To address this issue, we introduce a collision-free motion planner~\cite{curobo_report23} to our framework and conduct additional experiments. 
+During data generation, obstacles are randomly placed in the workspace, the motion planner plans collision-free paths for the robot. 
+During real-world testing, obstacles were placed near the target object, and the robot achieved a 70\% success rate in \textit{Pick Object} task.
+
+
+
+% %-------------------------------------------------------------------------
+% \rssparagraph{Rebuttal requirements}
+% Similar to the original submission, the rebuttal must {maintain anonymity} (except from Demo papers, which are not required to be anonymous).
+% The rebuttal also {cannot include external links}  to videos, code repositories, etc. Rebuttals violating these requirements will lead to a desk rejection of the corresponding paper.
+% The rebuttal must comply with this template. The use of sections (or paragraph headers) is not required, though it is recommended to structure the rebuttal for ease of reading. 
+% The text must be in 10-point Times, single-spaced.
+
+% %-------------------------------------------------------------------------
+% \rssparagraph{Response length}
+% The rebuttal must be no longer than 1 page in length, including any references, tables, and figures.
+% Overlength responses will not be reviewed.
+% This includes responses where the margins and formatting are deemed to have been significantly altered from this template.
+
+% %-------------------------------------------------------------------------
+% \rssparagraph{Formatting suggestions}
+% Make sure to number any displayed equation, table, and figure. 
+% When pointing to an equation, figure, table, or reference, make sure 
+% it is clear if you are referring to the rebuttal or to new equations, figures, tables, or references introduced in this rebuttal.
+
+% %-------------------------------------------------------------------------
+% \rssparagraph{Suggestions on how to organize your rebuttal} 
+% Authors familiar with CVPR and other computer vision conferences should be already familiar with the one-page rebuttal format.
+% If this is the first time you are preparing a one-page rebuttal, you might want to read our suggestions in the rest of this paragraph.
+% The rebuttal typically opens with few lines summarizing the strengths of the papers recognized in the reviews. For instance: \emph{We thank the reviewers and handling editors for the positive feedback and constructive comments. Reviewer 1 mentioned ``the paper presents a revolutionary idea and is likely to provide an effective alternative to the standard Kalman filter \cite{kalman1960new}''} . Make sure to keep this paragraph short. 
+
+% The rest of the rebuttal should address the key concerns expressed in the reviews. Considering that this is a short document, the authors might prefer organizing the discussion by topics rather than by reviewers. Since some concerns might be shared across multiple reviewers, the rebuttal can have a paragraph for each major concern. For instance:
+
+% \vspace{5mm}
+
+% \emph{\rssparagraph{Assumptions in Thm 1} Reviewers 1 and 3 expressed concerns about the validity of the Linear-Gaussian assumption in the derivation of the Kalman Filter in Thm 1. This assumption is restrictive in many robotics problems, but ... 
+% }
+
+% \vspace{5mm}
+
+% If useful, feel free to add small figures or tables. Providing quantitative evidence to support your claims is typically a great way to convince the 
+% reader of the point you want to make. You do not need to address every single comment by the reviewers (in particular very minor ones, e.g., a word being misspelled); at the same time, you need to address all the major comments that are likely to impact the acceptance of your paper.
+
+
+% %-------------------------------------------------------------------------
+% \rssparagraph{Acknowledgements}
+% This template is inspired by the rebuttal template used by the CVPR conference.
+
+% \begin{figure}[t]
+%   \centering
+%   \includegraphics[width=0.6\linewidth]{rss_logo_small.jpg}
+%   \caption{RSS rebuttal template figure. \label{fig:rss_logo_small}}
+% \end{figure}
+
+
+%%%%%%%%% REFERENCES
+{
+  \small
+  \bibliographystyle{plainnat}
+  \bibliography{references}
+}
+
+\end{document}
+
+

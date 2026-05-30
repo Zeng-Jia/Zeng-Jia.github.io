@@ -17,7 +17,7 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-I am currently a research scientist at [Shanghai AI Laboratory](https://www.shlab.org.cn/). My research interests include **Embodied AI, Robotic Manipulation and Vision-Language-Action (VLA) model**.  
+  I am currently a Research Scientist at *Joy Future Academy* (formerly *JD Explore Academy*), [JD.com](https://corporate.jd.com/). Prior to this, I held a Research Scientist position at [Shanghai AI Laboratory](https://www.shlab.org.cn/). My research is dedicated to advancing **Embodied AI** and **Robotic Manipulation**, with a particular focus on **Vision-Language-Action (VLA) Model** and **Unified World Action Model**.
 
  I received my PhD degree from Robotics Institute, Shanghai Jiao Tong University, supervised by Prof. [Honghai Liu](https://scholar.google.com/citations?user=bsabUhgAAAAJ&hl=zh-CN), and obtained my bachelor's degree from Central South University. I am currently working with [Jiangmiao Pang](https://oceanpang.github.io/) on Embodied AI. Over the preceding period, I have worked with Prof. [Hongyang Li](https://lihongyang.info) and Prof. [Yu Qiao](https://scholar.google.com/citations?user=gFtI-8QAAAAJ&hl=zh-CN).
 
@@ -202,22 +202,32 @@ Linyan Huang, Huijie Wang, **Jia Zeng**, et al.
 </div>
 
 # 🧑‍💻 Career Experience
-<div class='paper-box-right'><div class='paper-box-image'><div><a href="https://www.shlab.org.cn/"><img src='images/institutions/shailab.png' alt="sym" width="150px" style="padding: 5px;"></a></div></div>
+<div class='paper-box-right'><div class='paper-box-image'><div><a href="https://corporate.jd.com/"><img src='images/institutions/JD_logo.png' alt="sym" width="120px" style="padding: 5px;"></a></div></div>
 <div class='paper-box-text' markdown="1">
-## Shanghai AI Labotory, Research scientist
+## JD.com, Research scientist
 
-*2023.09 - (present)*.
+*2026.05 - (present)*.
 - **Embodied foundation model and generalizable robotic manipulation.**
 
 </div>
 </div>
 
-<div class='paper-box-right'><div class='paper-box-image'><div><a href="https://www.shlab.org.cn/"><img src='images/institutions/shailab.png' alt="sym" width="150px" style="padding: 5px;"></a></div></div>
+<div class='paper-box-right'><div class='paper-box-image'><div><a href="https://www.shlab.org.cn/"><img src='images/institutions/shailab.png' alt="sym" width="130px" style="padding: 5px;"></a></div></div>
+<div class='paper-box-text' markdown="1">
+## Shanghai AI Labotory, Research scientist
+
+*2023.09 - 2026.04*.
+- **Embodied foundation model and generalizable robotic manipulation.**
+
+</div>
+</div>
+
+<div class='paper-box-right'><div class='paper-box-image'><div><a href="https://www.shlab.org.cn/"><img src='images/institutions/shailab.png' alt="sym" width="130px" style="padding: 5px;"></a></div></div>
 <div class='paper-box-text' markdown="1">
 ## Shanghai AI Labotory, Research intern
 
 *2022.04 - 2023.06*, Supervisor: Prof. [Hongyang Li](https://lihongyang.info).
-- **Birds-Eye-View perception and Knowledge distillation for 3D object detection.**
+- **Autonomous driving and Birds-Eye-View (BEV) perception.**
 
 </div>
 </div>
